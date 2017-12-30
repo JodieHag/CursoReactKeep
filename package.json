@@ -1,0 +1,52 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "base64-inline-loader": "^1.1.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.0.0",
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.2.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "eslint-loader": "^1.7.1",
+    "file-loader": "^0.11.1",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.30.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "prop-types": "^15.5.10",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "sass-loader": "^6.0.5",
+    "slugify": "^1.1.0",
+    "style-loader": "^0.18.1",
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^3.5.6",
+    "webpack-merge": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^21.2.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "react-addons-test-utils": "^15.6.2",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "resolve-url-loader": "1.6.1",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --env='dev' -d --open",
+    "build": "webpack --env='prod' --progress --colors"
+  }
+}

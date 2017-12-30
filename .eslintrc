@@ -1,0 +1,23 @@
+{
+  extends: 'airbnb',
+  parser: 'babel-eslint',
+  env: {
+    browser: true,
+    node: true,
+    es6: true,
+    jquery: true
+  },
+  plugins: [
+    'react'
+  ],
+  globals: {
+    document: false
+  },
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true
+    }
+  }
+}

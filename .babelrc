@@ -1,0 +1,9 @@
+{
+  "presets": ["env", "react"],
+  "env": {
+    "production": {
+      "presets": ["minify"]
+    }
+  },
+  "plugins": ["babel-plugin-transform-decorators"]
+}
