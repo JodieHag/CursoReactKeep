@@ -19,5 +19,12 @@
     ecmaFeatures: {
       jsx: true
     }
+  },
+  rules: {
+    react/prefer-stateless-function: 1,
+    comma-dangle: ['error', {
+      functions: 'ignore'
+      }
+    ]
   }
 }

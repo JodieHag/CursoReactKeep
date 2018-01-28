@@ -8,7 +8,7 @@ module.exports = Merge(CommonConfig, {
     inline: true,
     quiet: false,
     contentBase: './dist',
-    port: 3000,
+    port: 8000,
     stats: {
       colors: true
     },
